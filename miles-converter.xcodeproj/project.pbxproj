@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C6CB781E6C6C0C00D3707A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6CB771E6C6C0C00D3707A /* main.m */; };
+		26C6CB7B1E6C6C0C00D3707A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6CB7A1E6C6C0C00D3707A /* AppDelegate.m */; };
+		26C6CB7E1E6C6C0C00D3707A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6CB7D1E6C6C0C00D3707A /* ViewController.m */; };
+		26C6CB811E6C6C0C00D3707A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C6CB7F1E6C6C0C00D3707A /* Main.storyboard */; };
+		26C6CB831E6C6C0C00D3707A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C6CB821E6C6C0C00D3707A /* Assets.xcassets */; };
+		26C6CB861E6C6C0C00D3707A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C6CB841E6C6C0C00D3707A /* LaunchScreen.storyboard */; };
+		26C6CB911E6C6C0C00D3707A /* miles_converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6CB901E6C6C0C00D3707A /* miles_converterTests.m */; };
+		26C6CB9C1E6C6C0C00D3707A /* miles_converterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6CB9B1E6C6C0C00D3707A /* miles_converterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C6CB8D1E6C6C0C00D3707A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C6CB6B1E6C6C0C00D3707A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C6CB721E6C6C0C00D3707A;
+			remoteInfo = "miles-converter";
+		};
+		26C6CB981E6C6C0C00D3707A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C6CB6B1E6C6C0C00D3707A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C6CB721E6C6C0C00D3707A;
+			remoteInfo = "miles-converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26C6CB731E6C6C0C00D3707A /* miles-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miles-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C6CB771E6C6C0C00D3707A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26C6CB791E6C6C0C00D3707A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26C6CB7A1E6C6C0C00D3707A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26C6CB7C1E6C6C0C00D3707A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26C6CB7D1E6C6C0C00D3707A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26C6CB801E6C6C0C00D3707A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C6CB821E6C6C0C00D3707A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C6CB851E6C6C0C00D3707A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C6CB871E6C6C0C00D3707A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C6CB8C1E6C6C0C00D3707A /* miles-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miles-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C6CB901E6C6C0C00D3707A /* miles_converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miles_converterTests.m; sourceTree = "<group>"; };
+		26C6CB921E6C6C0C00D3707A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C6CB971E6C6C0C00D3707A /* miles-converterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miles-converterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C6CB9B1E6C6C0C00D3707A /* miles_converterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miles_converterUITests.m; sourceTree = "<group>"; };
+		26C6CB9D1E6C6C0C00D3707A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C6CB701E6C6C0C00D3707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB891E6C6C0C00D3707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB941E6C6C0C00D3707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C6CB6A1E6C6C0C00D3707A = {
+			isa = PBXGroup;
+			children = (
+				26C6CB751E6C6C0C00D3707A /* miles-converter */,
+				26C6CB8F1E6C6C0C00D3707A /* miles-converterTests */,
+				26C6CB9A1E6C6C0C00D3707A /* miles-converterUITests */,
+				26C6CB741E6C6C0C00D3707A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C6CB741E6C6C0C00D3707A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C6CB731E6C6C0C00D3707A /* miles-converter.app */,
+				26C6CB8C1E6C6C0C00D3707A /* miles-converterTests.xctest */,
+				26C6CB971E6C6C0C00D3707A /* miles-converterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C6CB751E6C6C0C00D3707A /* miles-converter */ = {
+			isa = PBXGroup;
+			children = (
+				26C6CB791E6C6C0C00D3707A /* AppDelegate.h */,
+				26C6CB7A1E6C6C0C00D3707A /* AppDelegate.m */,
+				26C6CB7C1E6C6C0C00D3707A /* ViewController.h */,
+				26C6CB7D1E6C6C0C00D3707A /* ViewController.m */,
+				26C6CB7F1E6C6C0C00D3707A /* Main.storyboard */,
+				26C6CB821E6C6C0C00D3707A /* Assets.xcassets */,
+				26C6CB841E6C6C0C00D3707A /* LaunchScreen.storyboard */,
+				26C6CB871E6C6C0C00D3707A /* Info.plist */,
+				26C6CB761E6C6C0C00D3707A /* Supporting Files */,
+			);
+			path = "miles-converter";
+			sourceTree = "<group>";
+		};
+		26C6CB761E6C6C0C00D3707A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C6CB771E6C6C0C00D3707A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26C6CB8F1E6C6C0C00D3707A /* miles-converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C6CB901E6C6C0C00D3707A /* miles_converterTests.m */,
+				26C6CB921E6C6C0C00D3707A /* Info.plist */,
+			);
+			path = "miles-converterTests";
+			sourceTree = "<group>";
+		};
+		26C6CB9A1E6C6C0C00D3707A /* miles-converterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26C6CB9B1E6C6C0C00D3707A /* miles_converterUITests.m */,
+				26C6CB9D1E6C6C0C00D3707A /* Info.plist */,
+			);
+			path = "miles-converterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C6CB721E6C6C0C00D3707A /* miles-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C6CBA01E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converter" */;
+			buildPhases = (
+				26C6CB6F1E6C6C0C00D3707A /* Sources */,
+				26C6CB701E6C6C0C00D3707A /* Frameworks */,
+				26C6CB711E6C6C0C00D3707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "miles-converter";
+			productName = "miles-converter";
+			productReference = 26C6CB731E6C6C0C00D3707A /* miles-converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C6CB8B1E6C6C0C00D3707A /* miles-converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C6CBA31E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converterTests" */;
+			buildPhases = (
+				26C6CB881E6C6C0C00D3707A /* Sources */,
+				26C6CB891E6C6C0C00D3707A /* Frameworks */,
+				26C6CB8A1E6C6C0C00D3707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C6CB8E1E6C6C0C00D3707A /* PBXTargetDependency */,
+			);
+			name = "miles-converterTests";
+			productName = "miles-converterTests";
+			productReference = 26C6CB8C1E6C6C0C00D3707A /* miles-converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26C6CB961E6C6C0C00D3707A /* miles-converterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C6CBA61E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converterUITests" */;
+			buildPhases = (
+				26C6CB931E6C6C0C00D3707A /* Sources */,
+				26C6CB941E6C6C0C00D3707A /* Frameworks */,
+				26C6CB951E6C6C0C00D3707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C6CB991E6C6C0C00D3707A /* PBXTargetDependency */,
+			);
+			name = "miles-converterUITests";
+			productName = "miles-converterUITests";
+			productReference = 26C6CB971E6C6C0C00D3707A /* miles-converterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C6CB6B1E6C6C0C00D3707A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Juan Fernandez-Corugedo Igual";
+				TargetAttributes = {
+					26C6CB721E6C6C0C00D3707A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					26C6CB8B1E6C6C0C00D3707A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26C6CB721E6C6C0C00D3707A;
+					};
+					26C6CB961E6C6C0C00D3707A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26C6CB721E6C6C0C00D3707A;
+					};
+				};
+			};
+			buildConfigurationList = 26C6CB6E1E6C6C0C00D3707A /* Build configuration list for PBXProject "miles-converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C6CB6A1E6C6C0C00D3707A;
+			productRefGroup = 26C6CB741E6C6C0C00D3707A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C6CB721E6C6C0C00D3707A /* miles-converter */,
+				26C6CB8B1E6C6C0C00D3707A /* miles-converterTests */,
+				26C6CB961E6C6C0C00D3707A /* miles-converterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C6CB711E6C6C0C00D3707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C6CB861E6C6C0C00D3707A /* LaunchScreen.storyboard in Resources */,
+				26C6CB831E6C6C0C00D3707A /* Assets.xcassets in Resources */,
+				26C6CB811E6C6C0C00D3707A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB8A1E6C6C0C00D3707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB951E6C6C0C00D3707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C6CB6F1E6C6C0C00D3707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C6CB7E1E6C6C0C00D3707A /* ViewController.m in Sources */,
+				26C6CB7B1E6C6C0C00D3707A /* AppDelegate.m in Sources */,
+				26C6CB781E6C6C0C00D3707A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB881E6C6C0C00D3707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C6CB911E6C6C0C00D3707A /* miles_converterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C6CB931E6C6C0C00D3707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C6CB9C1E6C6C0C00D3707A /* miles_converterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C6CB8E1E6C6C0C00D3707A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C6CB721E6C6C0C00D3707A /* miles-converter */;
+			targetProxy = 26C6CB8D1E6C6C0C00D3707A /* PBXContainerItemProxy */;
+		};
+		26C6CB991E6C6C0C00D3707A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C6CB721E6C6C0C00D3707A /* miles-converter */;
+			targetProxy = 26C6CB981E6C6C0C00D3707A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C6CB7F1E6C6C0C00D3707A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C6CB801E6C6C0C00D3707A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C6CB841E6C6C0C00D3707A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C6CB851E6C6C0C00D3707A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C6CB9E1E6C6C0C00D3707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26C6CB9F1E6C6C0C00D3707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C6CBA11E6C6C0C00D3707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "miles-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26C6CBA21E6C6C0C00D3707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "miles-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26C6CBA41E6C6C0C00D3707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "miles-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miles-converter.app/miles-converter";
+			};
+			name = Debug;
+		};
+		26C6CBA51E6C6C0C00D3707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "miles-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miles-converter.app/miles-converter";
+			};
+			name = Release;
+		};
+		26C6CBA71E6C6C0C00D3707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "miles-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "miles-converter";
+			};
+			name = Debug;
+		};
+		26C6CBA81E6C6C0C00D3707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "miles-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfcorugedo.miles-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "miles-converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C6CB6E1E6C6C0C00D3707A /* Build configuration list for PBXProject "miles-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C6CB9E1E6C6C0C00D3707A /* Debug */,
+				26C6CB9F1E6C6C0C00D3707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C6CBA01E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C6CBA11E6C6C0C00D3707A /* Debug */,
+				26C6CBA21E6C6C0C00D3707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26C6CBA31E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C6CBA41E6C6C0C00D3707A /* Debug */,
+				26C6CBA51E6C6C0C00D3707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26C6CBA61E6C6C0C00D3707A /* Build configuration list for PBXNativeTarget "miles-converterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C6CBA71E6C6C0C00D3707A /* Debug */,
+				26C6CBA81E6C6C0C00D3707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C6CB6B1E6C6C0C00D3707A /* Project object */;
+}
